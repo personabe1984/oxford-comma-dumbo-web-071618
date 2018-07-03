@@ -12,6 +12,7 @@ def oxford_comma(array)
         temp_string += ", and " + array[i] 
       else
         temp_string += array[i] + ", "
+      end
     end
     return temp_string
   end
