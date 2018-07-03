@@ -10,8 +10,10 @@ def oxford_comma(array)
     for i in 0..len-1
       if i == len-1
         temp_string += ", and " + array[i] 
+        puts i 
       end
       temp_string += array[i] + ", "
+      puts i
     end
     return temp_string
   end
