@@ -6,8 +6,11 @@ def oxford_comma(array)
     array.join(" and ")
   elsif len >= 3
     # I could create a new array and then concatinate it 
-    temp = 
-    array.join(", ")
+    for i in array
+      puts i
+    end
     
   end
 end
+
+a
