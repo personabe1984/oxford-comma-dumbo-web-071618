@@ -20,6 +20,6 @@ def oxford_comma(array)
   end
 end
 
-arr = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
+#arr = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
 
-puts oxford_comma(arr)
+#puts oxford_comma(arr)
