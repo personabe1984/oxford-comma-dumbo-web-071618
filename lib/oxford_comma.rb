@@ -20,4 +20,4 @@ end
 
 arr = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits"]
 
-oxford_comma(arr)
+puts oxford_comma(arr)
