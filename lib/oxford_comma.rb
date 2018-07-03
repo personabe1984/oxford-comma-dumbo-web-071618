@@ -5,7 +5,8 @@ def oxford_comma(array)
   elsif len == 2
     array.join(" and ")
   elsif len >= 3
-    for i in 
+    # I could create a new array and then concatinate it 
+    temp = 
     array.join(", ")
     
   end
