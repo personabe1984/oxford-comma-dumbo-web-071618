@@ -6,10 +6,14 @@ def oxford_comma(array)
     array.join(" and ")
   elsif len >= 3
     # I could create a new array and then concatinate it 
-    for i in 0..len
-      puts i
+    temp_string = ""
+    for i in 0..len-1
+      if i == len-1
+        temp_string += ", and " + array[i] 
+      else
+        temp_string += array[i] + ", "
     end
-    
+    return temp_string
   end
 end
 
